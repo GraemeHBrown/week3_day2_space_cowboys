@@ -24,7 +24,7 @@ bounty2 = Bounty.new({
   # bounty1.update()
 
   # bounty1.delete()
-  found = bounty1.find_by_id()
+  found = Bounty.find_by_id(bounty1.id())
 
   binding.pry
   nil
